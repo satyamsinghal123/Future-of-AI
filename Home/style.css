@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    position: fixed !important;
+    width: 100%;
+    position: fixed !important;
+    z-index: 4 !important;
+}
+
+.bg{
+    height: calc(100vh - 72px);
+    width: 100%;
+    position: absolute;
+    
+}
+
+.bg video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: fixed;
+}
+
+.pg1{
+    width: 100%;
+    height: calc(100% - 72px);
+    background-color: rgba(10, 10, 10,0.7);
+    flex-direction: row-reverse;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.pg1-text{
+    color: aliceblue;
+    width: 50%;
+    font-size: 1vw;
+
+}
+
+.pg1-text h1{
+    text-align: center;
+    letter-spacing: 3px;
+    color: #F5004F;
+}
+
+.pg1-img img{
+    max-width: 90%;
+    border-radius: 7px;
+}
+
+.pg2{
+    height: calc(100% - 72px);
+    width: 100%;
+    background-color: rgba(10, 10, 10,0.7);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.pg2-text{
+    font-size: 1vw;
+}
+
+.pg2-text h1,h6{
+    text-align: center;
+    color: #F5004F;
+}
+
+.pg2-text h6{
+    color: grey;
+}
+
+.pg2-img img{
+    max-width: 51vw;
+    border-radius: 10px;
+}
+
+.pg3{
+    height: calc(100% - 72px);
+    width: 100%;
+    background-color: rgba(10, 10, 10,0.7);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.pg3-text{
+    font-size: 1.2vw;
+}
+
+.pg3 h1{
+    color: #F5004F;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pg3-img img{
+    border-radius: 10px;
+    width: 51vw;
+}
